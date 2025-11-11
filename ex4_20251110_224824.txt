@@ -1,0 +1,43 @@
+Image: examples/ex4.jpeg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the woman with glasses and a tan sweater draped over her shoulders."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, the woman in round glasses and a white collared shirt with a tan sweater draped, standing to the left of the man in the yellow jacket."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the woman with the draped sweater."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "This call-out is very clear, concise, and uniquely identifies the person using two distinct features.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 8,
+      "rank": 3,
+      "justification": "This call-out is highly discriminative due to the detailed description and relative location, but it is less brief than the others.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "This is the briefest possible call-out that still uniquely identifies the person, as no one else in the image has a sweater draped in this manner.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D3 is the most effective due to its extreme brevity coupled with a highly unique identifier. D1 is also very strong, providing slightly more detail while maintaining conciseness. D2, while highly accurate, is a bit wordier and thus less ideal for a brief call-out."
+}

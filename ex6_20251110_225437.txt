@@ -1,0 +1,43 @@
+Image: examples/ex6.jpg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the man in the light polo shirt on the far left, holding a photo."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, in the light grey polo shirt and holding a small photo, positioned on the far left."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the man on the far left in the light polo shirt."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "Concise and natural, clearly identifies the person by location, clothing, and action.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 8,
+      "rank": 3,
+      "justification": "Precisely describes distinctive clothing, accessories, and relative location, though it is the longest description.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "Extremely brief while remaining uniquely identifiable by his distinct location and shirt color.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D3 is the most effective due to its brevity and unique identification. D1 offers a good balance of naturalness and conciseness, while D2 is highly detailed as requested but longer."
+}

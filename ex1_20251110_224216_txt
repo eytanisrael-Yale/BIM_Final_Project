@@ -1,0 +1,43 @@
+Image: examples/ex1.png
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the one in the light blue strapless top and denim shorts."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, the one in the light blue strapless top and dark sandals, second from the right."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the one in the light blue strapless top."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "Clearly identifies by the specific top and shorts in a natural and concise way.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 9,
+      "rank": 3,
+      "justification": "Effectively highlights distinctive clothing (top, sandals) and a precise relative location, fulfilling all D2 requirements.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "Most concise while still uniquely identifying the person due to the distinctiveness of the light blue strapless top.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D3 is the most concise and effective for unique identification. D1 provides a good balance of detail and brevity, while D2 offers a robust description by combining clothing details with a precise positional cue."
+}

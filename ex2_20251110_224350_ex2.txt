@@ -1,0 +1,43 @@
+Image: examples/ex2.jpeg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the woman in the black sleeveless top with your arm around the person in the white top."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, the woman in the black boat-neck sleeveless top and leggings, standing between the smiling man in blue and the person in the white top."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the woman with your left arm around the person in white."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "This description is concise and uniquely identifies the person by combining specific clothing with a distinct interaction (arm around another person).",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 8,
+      "rank": 3,
+      "justification": "This description is highly discriminative due to the detailed clothing attributes and precise relative location, ensuring unique identification, but it is less brief.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "This is the briefest possible description that still uniquely identifies the person, leveraging a very specific and observable interaction (left arm around the person in white).",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D3 is the most effective due to its exceptional brevity combined with unique identification based on a specific physical interaction. D1 offers a great balance of conciseness and detail, while D2 is highly discriminative but sacrifices some brevity for more specific details."
+}

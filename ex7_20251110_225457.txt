@@ -1,0 +1,43 @@
+Image: examples/ex7.jpg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, with the beard and brown boots."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, front-right, wearing the grey long-sleeve shirt and brown boots."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, with the beard."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "Clearly identifies by combining two unique visible features without being overly long.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 8,
+      "rank": 3,
+      "justification": "Provides specific clothing details and a clear relative position, ensuring no confusion, but is the longest option.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "The most concise option, relying on a prominent and uniquely identifying facial feature.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "The most effective call-outs leverage the unique facial hair and footwear, as these are exclusive to the bounded individual among the three. D3 is the briefest and most effective due to the uniqueness of the beard, while D1 offers slightly more detail without sacrificing conciseness."
+}

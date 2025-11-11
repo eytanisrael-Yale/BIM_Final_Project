@@ -1,0 +1,43 @@
+Image: examples/ex8.jpg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, in the middle, wearing the dark blue hooded jacket with the grey lining."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, in the dark blue jacket with the grey inner hood, to the left of the person wearing the Maimonides School logo."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, with the visible grey hood lining."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 8,
+      "rank": 3,
+      "justification": "Clearly identifies the person using position and clothing detail, but is less brief and slightly less precise than D2 or D3.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 9,
+      "rank": 2,
+      "justification": "Highly discriminative, combining a specific clothing detail with a precise relative location to another uniquely identifiable person.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "The briefest description that uniquely identifies the person based on a distinctive and clearly visible clothing detail.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "All three descriptions successfully identify the target person. D3 is the most concise due to leveraging a unique clothing feature. D2 provides excellent specificity by combining clothing details with a precise relative position."
+}

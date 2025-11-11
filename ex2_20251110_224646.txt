@@ -1,0 +1,43 @@
+Image: examples/ex2.jpeg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the woman in the black sleeveless top, smiling broadly next to the man with the grey beard."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, the woman in the black sleeveless top and matching black leggings, standing to the right of the man in the dark blue t-shirt."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the woman next to the bearded man."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 8,
+      "rank": 3,
+      "justification": "Good blend of description and relative location, but 'smiling broadly' is slightly subjective and adds minor length compared to other options.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 10,
+      "rank": 2,
+      "justification": "Exceptionally clear due to specific clothing details (top and leggings) combined with precise relative positioning, making identification highly unambiguous.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 10,
+      "rank": 1,
+      "justification": "Achieves maximum brevity while maintaining unique identification through the salient and unambiguous relative position to the bearded man.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D3 provides the most succinct identification by leveraging a prominent unique feature of a nearby person. D2 offers the most detailed and unambiguously discriminative description through specific attire and relative location. D1 is effective but slightly less concise than D3 and less detailed than D2."
+}

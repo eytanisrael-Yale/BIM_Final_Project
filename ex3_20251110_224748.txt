@@ -1,0 +1,43 @@
+Image: examples/ex3.jpg
+
+=== MODEL OUTPUT ===
+{
+  "descriptions": [
+    {
+      "idx": 1,
+      "text": "Hey you, the man with the big smile on the far right."
+    },
+    {
+      "idx": 2,
+      "text": "Hey you, the man in the blue polo shirt on the far right."
+    },
+    {
+      "idx": 3,
+      "text": "Hey you, the man on the far right."
+    }
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "rating": 9,
+      "rank": 2,
+      "justification": "Clearly identifies the person using a distinctive facial expression and precise location within the group.",
+      "issues": []
+    },
+    {
+      "idx": 2,
+      "rating": 10,
+      "rank": 1,
+      "justification": "Provides highly specific clothing detail along with an unambiguous relative location, ensuring unique identification.",
+      "issues": []
+    },
+    {
+      "idx": 3,
+      "rating": 8,
+      "rank": 3,
+      "justification": "This is the briefest option, relying on gender and a very clear positional cue for unique identification.",
+      "issues": []
+    }
+  ],
+  "overall_notes": "D2 offers the most precise identification by combining specific clothing with location. D1 is also very effective using a prominent facial feature and location, while D3 achieves maximum brevity through gender and location."
+}
